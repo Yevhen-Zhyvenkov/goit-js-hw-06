@@ -1,4 +1,3 @@
-
 const items = document.querySelectorAll('.item');
 console.log(`Number of categories: ${items.length}`);
 items.forEach(item => {
@@ -7,3 +6,15 @@ items.forEach(item => {
   console.log(`Category: ${categoryTitle}`);
   console.log(`Elements: ${categoryElements}`);
 });
+
+// const userA = {
+//   name: "Mango",
+//   age: 5,
+// };
+// const userB = {
+//   ...userA,
+
+//   age: 10,
+//   hay: true,
+// };
+// console.log(userB);
