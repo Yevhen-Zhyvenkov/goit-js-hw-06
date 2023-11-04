@@ -7,14 +7,4 @@ items.forEach((item) => {
   console.log(`Elements: ${categoryElements}`);
 });
 
-// const userA = {
-//   name: "Mango",
-//   age: 5,
-// };
-// const userB = {
-//   ...userA,
 
-//   age: 10,
-//   hay: true,
-// };
-// console.log(userB);
